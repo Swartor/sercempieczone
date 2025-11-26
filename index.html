@@ -4,93 +4,84 @@
     <meta charset="UTF-8">
     <title>Sercem pieczone – domowe szarlotki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            margin: 0;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            background-color: #F7EEDC;
-            color: #3b2416;
-        }
-        header {
-            text-align: center;
-            padding: 40px 20px 20px;
-        }
-        h1 {
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-        }
-        h2 {
-            font-size: 1.3rem;
-            font-weight: normal;
-            margin-top: 0;
-        }
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 32px;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 12px;
-            padding: 10px 22px;
-            border-radius: 999px;
-            border: none;
-            text-decoration: none;
-            font-weight: 600;
-            background-color: #8B4513;
-            color: #fff;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.85rem;
-            padding: 20px;
-            opacity: 0.8;
-        }
-    </style>
+    <meta name="description" content="Sercem pieczone – domowe szarlotki na świeżych jabłkach, pieczone z sercem w małej pracowni.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Sercem pieczone</h1>
-        <h2>Domowe szarlotki na świeżych jabłkach – pieczone z sercem</h2>
-        <a href="#kontakt" class="btn">Zamów szarlotkę</a>
-    </header>
-
-    <main>
-        <section>
-            <h3>Dlaczego nasza szarlotka?</h3>
-            <p>Każdą szarlotkę przygotowujemy ręcznie w małej domowej pracowni. Używamy świeżych jabłek, dobrych składników i dopracowanego przepisu.</p>
-            <ul>
-                <li>około 2 kg domowego ciasta</li>
-                <li>dużo jabłek i krucha góra</li>
-                <li>wersja klasyczna i bez białka</li>
+<header>
+    <div class="header-inner">
+        <div class="logo">
+            <img src="img/logo-sercem-pieczone.png" alt="Sercem pieczone – logo">
+            <div>
+                <div class="logo-text">Sercem pieczone</div>
+                <div class="tagline">Domowe szarlotki na świeżych jabłkach</div>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html" class="active">Start</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="dlaczego.html">Dlaczego warto</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
-        </section>
+        </nav>
+    </div>
+</header>
 
-        <section>
-            <h3>Oferta</h3>
-            <p><strong>Szarlotka klasyczna 2 kg</strong><br>
-            Domowa szarlotka na kruchym cieście z dużą ilością jabłek i cynamonem.<br>
-            <strong>Cena: 130 zł</strong></p>
+<div class="wrapper">
+    <section class="hero">
+        <div>
+            <div class="hero-badge">
+                <span>🥧</span> ok. 2 kg domowej szarlotki
+            </div>
+            <h1>Sercem pieczone</h1>
+            <p>Ręcznie robione szarlotki na świeżych jabłkach – tak, jak dla własnej rodziny: spokojnie, dokładnie i bez kompromisów.</p>
+            <p class="hero-note">Każde ciasto powstaje osobno w małej pracowni. Dopracowany przepis, dużo jabłek, chrupiąca kruszonka.</p>
+            <div class="hero-cta">
+                <a href="oferta.html" class="btn btn-primary">Zobacz ofertę</a>
+                <a href="kontakt.html" class="btn btn-ghost">Jak zamówić?</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-visual-inner">
+                <p><strong>Domowe szarlotki na zamówienie</strong></p>
+                <p>Idealne na rodzinne spotkania, święta, urodziny, do pracy i na prezent. Każda szarlotka pakowana jest w pudełko z podkładką i kartką z podziękowaniem.</p>
+            </div>
+        </div>
+    </section>
 
-            <p><strong>Szarlotka bez białka 2 kg</strong><br>
-            Wersja dla osób z wykluczeniami pokarmowymi – bez białka jaj, z tym samym domowym smakiem.<br>
-            <strong>Cena: 150 zł</strong></p>
-        </section>
+    <section>
+        <h2>Dlaczego nasza szarlotka?</h2>
+        <p class="lead">Specjalizujemy się w jednym cieście – szarlotce. Dzięki temu możemy dopracować każdy szczegół: od kruchości spodu, przez ilość jabłek, po złotą kruszonkę.</p>
 
-        <section id="kontakt">
-            <h3>Kontakt</h3>
-            <p>Telefon: <strong>tu_wstaw_numer</strong><br>
-            E-mail: <strong>tu_wstaw_mail</strong><br>
-            Lokalizacja: <strong>tu_wstaw_miasto</strong></p>
-            <p>Zamówienia przyjmujemy telefonicznie, SMS-em lub mailowo (prosimy o minimum 2 dni wyprzedzenia).</p>
-        </section>
-    </main>
+        <div class="card-grid">
+            <div class="card">
+                <span class="badge">Domowy smak</span>
+                <h3>Jak u mamy, tylko na zamówienie</h3>
+                <p>Kruchy spód, dużo jabłek, cynamon i chrupiąca góra. Bez ulepszaczy, bez gotowych mieszanek – wszystko od podstaw.</p>
+            </div>
+            <div class="card">
+                <span class="badge">Ręczna praca</span>
+                <h3>Każde ciasto osobno</h3>
+                <p>Nie pieczemy hurtowo. Każda szarlotka powstaje jako osobne zamówienie, dzięki czemu mamy kontrolę nad każdym etapem.</p>
+            </div>
+            <div class="card">
+                <span class="badge">Dla różnych potrzeb</span>
+                <h3>Wersja klasyczna i bez białka</h3>
+                <p>Oprócz klasycznej szarlotki przygotowujemy także wersje bez białka – dla osób z wykluczeniami w diecie.</p>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        &copy; Sercem pieczone – domowe szarlotki
-    </footer>
+    <section>
+        <h2>Jak zamówić?</h2>
+        <p>Zamówienia przyjmujemy telefonicznie, SMS-em lub mailowo. Prosimy o minimum 2 dni wyprzedzenia – szarlotki pieczemy na świeżo, pod konkretny termin.</p>
+        <p><a href="kontakt.html" class="btn btn-primary">Przejdź do kontaktu</a></p>
+    </section>
+</div>
+
+<footer>
+    &copy; Sercem pieczone – domowe szarlotki
+</footer>
 </body>
 </html>
